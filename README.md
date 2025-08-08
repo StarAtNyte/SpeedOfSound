@@ -64,10 +64,10 @@ Key parameters in `Config` class:
 - **Enhanced U-Net** with source attention
 - **96 initial features** for better representation
 - **Source encoders** for multi-source processing
-- **Focal MAPE loss** targeting < 0.021 error
+- **Focal MAPE loss**
 
 ### Results
-Target MAPE < 0.021 with optimizations:
+Target MAPE < 0.03 with optimizations:
 - Focal loss for hard examples
 - Hard example mining (50% hardest)
 - Stochastic Weight Averaging
